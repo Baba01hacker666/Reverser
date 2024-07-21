@@ -1,0 +1,45 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern & readable font */
+    background-color: #f4f4f4; /* Light background for contrast */
+    color: #333; /* Dark text for readability */
+    line-height: 1.6; /* Improved line spacing */
+    margin: 0; /* Remove default body margins */
+}
+
+h1 {
+    text-align: center;
+    background-color: #007bff; /* Eye-catching blue header */
+    color: white;
+    padding: 1rem;
+}
+
+.project {
+    background-color: white;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 20px;
+    margin: 20px auto; /* Center projects */
+    max-width: 600px; /* Limit width for better readability */
+}
+
+.project h2 {
+    color: #007bff; /* Blue heading to match the main title */
+}
+
+.project p {
+    margin-bottom: 15px;
+}
+
+.project a {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s; /* Smooth color change on hover */
+}
+
+.project a:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
